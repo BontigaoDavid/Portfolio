@@ -1,0 +1,139 @@
+:root {
+  /* Handles the color scheme of the website */
+  --primary: #AE0E36FF;
+  --primary-alt: #700000; 
+  --secondary: #FFFFFF;
+  /* Handles the font colors of the entire website */
+  --primary-font: #FFFFFF;
+  --secondary-font: #dddddd;
+  --secondary-border: 1px solid #AE0E36FF;
+  /* Color schemes to demo: #FC766AFF #B0B8B4FF #184A45FF */
+  /* Color schemes to demo: #629677 #98B6B1 #FAC8CD #D7BCC8 */
+  /* Color schemes to demo: #7DE2D1 #339989 #FFFAFB #131515 */
+  --secondary-bg: rgba(174, 14, 54, 0.3) 
+}
+
+body,
+#root,
+.App {
+  min-height: 100vh;
+}
+body i {
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+.App {
+  display: flex;
+  flex-flow: column;
+}
+footer { margin-top: auto; }
+
+.bg-img {
+  background-image: url("./images/background-img.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.bg-about {
+  background-image: url("./images/bg-about.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-gray { background: #e6e6e6; }
+.bg-important { background: var(--secondary);}
+
+.header {
+  /* background-image: linear-gradient(
+    to bottom right,
+    var(--primary),
+    var(--primary-alt)
+  ); */
+  background-color: var(--primary);
+}
+#title{ color: var(--primary-font); }
+#subtitle{ color: var(--secondary-font); }
+
+.navbar {
+  color: var(--primary-font);
+}
+
+.nav-item {
+  width: 15vw;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  background-color: var(--primary);
+  color: var(--primary-font);
+  /* This gave the buttons a shadow and combined with the on hover, would make button appear to pop out. */
+  /* box-shadow: 0 5px 9px rgba(57, 57, 57, 0.4);
+  transform: translateY(0);
+  transition: 0.5s all ease; */
+}
+/* .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 10px rgba(57, 57, 57, 0.7);
+} */
+.footer {
+  /* background-image: linear-gradient(
+    to bottom right,
+    var(--primary),
+    var(--primary-alt)
+  ); */
+  background-color: var(--primary);
+  color: var(--primary-font);
+  text-align: center;
+}
+.welcomeTitle{
+  color: var(--primary-font);
+}
+.welcomeSubtitle{
+  color: var(--primary-font);
+}
+.nav-tabs .nav-link {
+  background-color: #ddd;
+}
+
+#table-of-contents {
+  background: var(--secondary);
+  border: var(--secondary-border);
+  border-radius: 10px;
+  width: 40%;
+  padding: 50px;
+}
+a { color: var(--primary); }
+a:hover { color: var(--primary-alt); }
+
+.toc, 
+.toc .card-header, 
+.toc .list-group-item {
+  border-color: var(--primary);
+}
+
+.toc .card-header {
+  background: var(--secondary-bg);
+  font-weight: bold;
+}
+
+#about-div {
+  overflow: hidden;
+}
+
+.name-container {
+  text-align: center;
+  color: rgb(206, 223, 250);
+  text-shadow: 2px 2px #2f5980;
+  width: 100vw;
+  margin-bottom: 0.5vw;
+  padding-top: 30vh;
+}
+
+.title-container {
+  text-align: center;
+  color: rgb(123, 174, 255);
+  text-shadow: 2px 2px #ff9469;
+  width: 100vw;
+  padding-bottom: 15vh;
+}

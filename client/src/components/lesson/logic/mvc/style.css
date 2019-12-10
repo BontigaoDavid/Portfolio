@@ -1,0 +1,28 @@
+.mvc-lesson h2 { margin-bottom: 20px; }
+
+.mvc-lesson p { margin-bottom: 35px; }
+
+.mvc-lesson h4 { margin-bottom: 30px; }
+
+#exp-img {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#folder-img { 
+    margin-bottom: 50px; 
+}
+
+#client-folder-div {
+    margin-right: 25px;
+}
+
+#client-folder-label {
+    margin-bottom: 15px;
+}
+
+#client-folder-div {
+     margin-right: 25px; 
+}
