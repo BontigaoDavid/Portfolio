@@ -122,6 +122,7 @@ a:hover { color: var(--primary-alt); }
 }
 
 .name-container {
+  font-size: 3.5vw;
   text-align: center;
   color: rgb(206, 223, 250);
   text-shadow: 2px 2px #2f5980;
@@ -131,9 +132,20 @@ a:hover { color: var(--primary-alt); }
 }
 
 .title-container {
+  font-size: 1.75vw;
   text-align: center;
   color: rgb(123, 174, 255);
   text-shadow: 2px 2px #ff9469;
   width: 100vw;
   padding-bottom: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .name-container {
+    background-color: lightblue;
+  }
+
+  .navbar {
+    display: none;
+  }
 }
