@@ -27,7 +27,7 @@ class Navbar extends React.Component {
             <ul className="navbar-nav m-auto">
               <li className="nav-item lead">
                 <Link
-                  to="/"
+                  to=""
                   className={
                     location.pathname === "/"
                       ? "nav-link active"
@@ -39,21 +39,9 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item lead">
                 <Link
-                  to="/lesson"
+                  to=""
                   className={
                     location.pathname.includes("/lesson")
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  R E S U M E
-                </Link>
-              </li>
-              <li className="nav-item lead">
-                <Link
-                  to="/about"
-                  className={
-                    location.pathname.includes("/about")
                       ? "nav-link active"
                       : "nav-link"
                   }
@@ -63,7 +51,19 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item lead">
                 <Link
-                  to="/feedback"
+                  to=""
+                  className={
+                    location.pathname.includes("/about")
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
+                  R E S U M E
+                </Link>
+              </li>
+              <li className="nav-item lead">
+                <Link
+                  to=""
                   className={
                     location.pathname === "/feedback"
                       ? "nav-link active"
