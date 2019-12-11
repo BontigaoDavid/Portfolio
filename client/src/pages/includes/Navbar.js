@@ -9,10 +9,11 @@ class Navbar extends React.Component {
     const { match, location } = this.props;
     console.log(match);
     return (
-      <nav className="navbar navbar-dark navbar-expand-lg">
-        <div className="container">
+      <nav className="navbar navbar-dark ">
+        <div className="">
 
-          <div className="collapse navbar-collapse" id="navbarText">
+
+          <div className="" id="navbarText">
             <ul className="navbar-nav m-auto">
               <li className="nav-item lead">
                 <Link
@@ -28,9 +29,9 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item lead">
                 <Link
-                  to=""
+                  to="/projects"
                   className={
-                    location.pathname.includes("/lesson")
+                    location.pathname.includes("/projects")
                       ? "nav-link active"
                       : "nav-link"
                   }

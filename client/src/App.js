@@ -5,35 +5,17 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header, Navbar, Footer } from "./pages/includes/index";
 
 // Pages
-import { Home, Profile, Lesson, About, Feedback } from "./pages/index";
+import { Home } from "./pages/index";
 
-// import tableOfContents from "./components/lesson/index";
-import BoxModel from "./components/lesson/css/box-model/Lesson";
-import Variables from "./components/lesson/es6/variables/Variables";
-import Function from "./components/lesson/es6/functions/Function";
-import MVC from "./components/lesson/logic/mvc/mvc";
-import timeComplexity from "./components/lesson/logic/time-complexity/time-complexity";
+import Projects from "./pages/includes/projects";
 
 function App() {
   return (
     <Router>
       <div className="App justify-content-stretch bg-img">
+          <Home />
           <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-        <main className="my-5">
-          <Route exact path="/user" component={Profile} />
-          <Route exact path="/lesson" component={Lesson} />
-          
-          <Route exact path="/lesson/css/box-model" component={BoxModel} />
-
-          <Route exact path="/lesson/es6/variables" component={Variables} />
-          <Route exact path="/lesson/es6/function" component={Function} />
-
-          <Route exact path="/lesson/logic/mvc" component={MVC} />
-          <Route exact path="/lesson/logic/time-complexity" component={timeComplexity} />
-          <Route exact path="/feedback" component={Feedback} />
-        </main>
+          <Route exact path="/projects" component={Projects} />
           </Switch>
 
       </div>
