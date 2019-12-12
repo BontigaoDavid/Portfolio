@@ -78,22 +78,6 @@ class Projects extends Component {
                 DETAILS
             </div>
         </div>
-
-
-
-        
-
-
-
-        <div className="project-card">
-                hELOELEOELOL
-        </div>
-
-
-
-        <div className="project-card">
-                hELOELEOELOL
-        </div>
     </div>
     );
   }
