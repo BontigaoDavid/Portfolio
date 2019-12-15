@@ -75,7 +75,7 @@ class Projects extends Component {
                             More Information
                         </div>
                         <ul className="details-list">
-                            <li><a href="https://vast-cliffs-60334.herokuapp.com/">Heroku Link</a></li>
+                            <li><a href="https://simplyconceptual.herokuapp.com/">Heroku Link</a></li>
                             <li><a href="https://github.com/BontigaoDavid/Project3">Github Link</a></li>
                         </ul>
                     </div>
