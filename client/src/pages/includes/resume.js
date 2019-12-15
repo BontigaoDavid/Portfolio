@@ -11,8 +11,14 @@ class Resume extends Component {
     <div className="display-4 tab-container">
         <div className="tab-card" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="collapseExample">
             <div className="row">
-                <div className="col-sm-4 d-flex justify-content-center">
-                    <img className="resume-img" src={require("./images/Resume.jpg")} alt="" />
+                <div className="col-sm-4 ">
+                    <div className="d-flex justify-content-center">
+                        <div className="resume-img-container">
+                            <a href="https://drive.google.com/file/d/1TsaUXtPueHHQVRkaLgPdPlJi7h4gBkA3/view?usp=sharing">
+                                <img className="resume-img" src={require("./images/Resume.jpg")} alt="" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-sm-4 d-flex justify-content-center">
                     <div className="resume-container">

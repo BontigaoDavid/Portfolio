@@ -261,15 +261,20 @@ a:hover {
   padding-top: 0.5vw;
 }
 
-.resume-img {
+.resume-img-container {
   width: 80%;
   padding: 1vw;
-  margin-bottom: 15vh;
 }
 
-.resume-img:hover {
+.resume-img-container:hover {
   border: 1px solid rgb(73, 128, 119);
 }
+
+.resume-img {
+  width: 100%;
+}
+
+
 
 .resume-container {
   width: 80%;
