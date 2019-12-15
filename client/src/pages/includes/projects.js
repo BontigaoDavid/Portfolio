@@ -8,13 +8,13 @@ class Projects extends Component {
 
   render() {
     return (
-    <div className="display-4 projects-container">
-        <div className="project-card" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="collapseExample">
+    <div className="display-4 tab-container">
+        <div className="tab-card" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="collapseExample">
             <div className="project-summary">
                 <div className="row">
                     <div className="col-12 col-sm-7 d-flex align-items-center project-image">
-                        <a href="https://vast-cliffs-60334.herokuapp.com/">
-                            <img className="w-100" src={require("./images/simply-conceptual.PNG")} alt="gray mini figure under white sneaker" />
+                        <a href="https://simplyconceptual.herokuapp.com/">
+                            <img className="w-100" src={require("./images/simply-conceptual.PNG")} alt="" />
                         </a>
                     </div>
                     <div className="col-12 col-sm-1">
@@ -44,12 +44,25 @@ class Projects extends Component {
                         <div className="details-title">
                             Details
                         </div>
+                        <div >
+                            Simply conceptual was developed on ReactJS which uses HTML
+                            CSS and Javascript to build pages and components and renders 
+                            different elements to a main root div using react router. A 
+                            node server hosted on heroku serves requests using express.
+                            It parses userdata into a mongoDB that hashes users' passwords
+                            and generates a temporary web token for authorization and secures
+                            user information. Simply conceptual was developed for scratch
+                            using all hand written elements and function and demonstrates
+                            mastery of cyber security, database queries and parsing, UI 
+                            design, servers/api, CRUD functionality, MVC design, and MERN 
+                            development.
+                        </div>
                     </div>
                     <div className="details-card col-12 col-sm-3">
                         <div className="details-title">
                             Technologies Used
                         </div>
-                        <ul className="technologies-list">
+                        <ul className="details-list">
                             <li>HTML/CSS/Javascript</li>
                             <li>ReactJS</li>
                             <li>Express</li>
@@ -62,14 +75,8 @@ class Projects extends Component {
                             More Information
                         </div>
                         <ul className="details-list">
-                            <li><a href="https://vast-cliffs-60334.herokuapp.com/">*Heroku Link*</a></li>
-                            <li><a href="https://github.com/BontigaoDavid/Project3">*Github Link*</a></li>
-                            <li>React Router</li>
-                            <li>Express Server</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose ORM</li>
-                            <li>B-crypt Hashing (Web Token/Password)</li>
-                            <li>Heroku</li>
+                            <li><a href="https://vast-cliffs-60334.herokuapp.com/">Heroku Link</a></li>
+                            <li><a href="https://github.com/BontigaoDavid/Project3">Github Link</a></li>
                         </ul>
                     </div>
                 </div>

@@ -122,6 +122,10 @@ html {
   background-color: #ddd;
 }
 
+.nav-text {
+  font-size: 2.5vh;
+}
+
 #table-of-contents {
   background: var(--secondary);
   border: var(--secondary-border);
@@ -167,21 +171,21 @@ a:hover { color: var(--primary-alt); }
 }
 
 
-.projects-container {
+.tab-container {
   background-color: #22272c9c;
   color: white;
   margin-top: 5vh;
   border-top: 1px solid rgb(51, 74, 83);
 }
 
-.project-card {
+.tab-card {
   width: 100%;
   padding-top: 15vh;
   border-bottom: 1px solid rgb(51, 74, 83);
 }
 
-.project-card:hover {
-  background-color: #090d11a2;
+.tab-card:hover {
+  background-color: #000000a2;
 }
 
 .project-summary {
@@ -239,6 +243,14 @@ a:hover { color: var(--primary-alt); }
   list-style-type: none;
 }
 
+a {
+  color: rgb(152, 163, 201);
+}
+
+a:hover {
+  color: rgb(152, 163, 201);
+}
+
 .expand-button {
   background-color: #272e3577;
   margin-top: 15vh;
@@ -249,9 +261,39 @@ a:hover { color: var(--primary-alt); }
   padding-top: 0.5vw;
 }
 
+.resume-img {
+  width: 80%;
+  padding: 1vw;
+  margin-bottom: 15vh;
+}
+
+.resume-img:hover {
+  border: 1px solid rgb(73, 128, 119);
+}
+
+.resume-container {
+  width: 80%;
+}
+
+.resume-card {
+  padding: 5vh;
+  border: 1px solid rgb(152, 201, 174);
+  font-size: 0.9vw;
+  color: rgb(152, 163, 201);
+  margin-bottom: 10vh;
+}
+
+.resume-list {
+  margin-bottom: 0;
+}
+
+
 @media only screen and (max-width: 600px) {
   .name-container {
-    background-color: lightblue;
     padding-top: 20vh;
+  }
+
+  .nav-text {
+    font-size: 2vw;
   }
 }

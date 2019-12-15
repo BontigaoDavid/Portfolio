@@ -12,10 +12,9 @@ class Navbar extends React.Component {
       <nav className="navbar navbar-dark ">
         <div className="">
 
-
           <div className="" id="navbarText">
             <ul className="navbar-nav m-auto">
-              <li className="nav-item lead">
+              <li className="nav-item lead nav-text">
                 <Link
                   to=""
                   className={
@@ -27,7 +26,7 @@ class Navbar extends React.Component {
                   H O M E
                 </Link>
               </li>
-              <li className="nav-item lead">
+              <li className="nav-item lead nav-text">
                 <Link
                   to="/projects"
                   className={
@@ -39,11 +38,11 @@ class Navbar extends React.Component {
                   P R O J E C T S
                 </Link>
               </li>
-              <li className="nav-item lead">
+              <li className="nav-item lead nav-text">
                 <Link
-                  to=""
+                  to="/resume"
                   className={
-                    location.pathname.includes("/about")
+                    location.pathname.includes("/resume")
                       ? "nav-link active"
                       : "nav-link"
                   }
@@ -51,11 +50,11 @@ class Navbar extends React.Component {
                   R E S U M E
                 </Link>
               </li>
-              <li className="nav-item lead">
+              <li className="nav-item lead nav-text">
                 <Link
-                  to=""
+                  to="/contact"
                   className={
-                    location.pathname === "/feedback"
+                    location.pathname === "/contact"
                       ? "nav-link active"
                       : "nav-link"
                   }
