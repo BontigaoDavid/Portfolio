@@ -123,7 +123,7 @@ html {
 }
 
 .nav-text {
-  font-size: 2.5vh;
+  font-size: 1.5vw;
 }
 
 #table-of-contents {
@@ -286,12 +286,21 @@ a:hover {
   font-size: 0.9vw;
   color: rgb(152, 163, 201);
   margin-bottom: 10vh;
+  
 }
 
 .resume-list {
   margin-bottom: 0;
 }
 
+.contact-container {
+}
+
+.contact-card {
+  padding: 5vh;
+  border: 1px solid rgb(152, 201, 174);
+  margin-bottom: 15vh;
+}
 
 @media only screen and (max-width: 600px) {
   .name-container {
